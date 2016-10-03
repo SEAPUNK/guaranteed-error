@@ -22,7 +22,7 @@ try {
   err = guaranteedError(err)
   /* err is now an Error instance, with the following stack:
 Error: something broke
-    at <none>
+    at <unknown>
   */
 }
 ```

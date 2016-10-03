@@ -9,7 +9,7 @@ test('empty errors', t => {
   t.is(fixed.message, '<No error message provided>')
   t.is(fixed.stack,
 `Error: <No error message provided>
-    at <none>`
+    at <unknown>`
   )
 })
 
@@ -21,7 +21,7 @@ test('strings instead of errors', t => {
   t.is(fixed.message, 'nice')
   t.is(fixed.stack,
 `Error: nice
-    at <none>`
+    at <unknown>`
   )
 })
 
@@ -60,5 +60,5 @@ test('errors without stacks', t => {
   t.is(fixed.message, 'okay')
   t.is(fixed.stack,
 `Error: okay
-    at <none>`)
+    at <unknown>`)
 })
