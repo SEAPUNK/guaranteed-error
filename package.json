@@ -21,10 +21,10 @@
   },
   "homepage": "https://github.com/SEAPUNK/guaranteed-error#readme",
   "devDependencies": {
-    "ava": "^0.15.2",
-    "babel-eslint": "^6.1.2",
+    "ava": "^0.16.0",
+    "babel-eslint": "^7.0.0",
     "coveralls": "^2.11.11",
-    "nyc": "^7.0.0",
-    "standard": "^7.1.2"
+    "nyc": "^8.3.0",
+    "standard": "^8.3.0"
   }
 }
