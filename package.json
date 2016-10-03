@@ -1,7 +1,7 @@
 {
   "name": "guaranteed-error",
   "version": "0.0.0",
-  "description": "",
+  "description": "Fixes up error objects, and converts plain strings to error instances.",
   "main": "lib/index.js",
   "scripts": {
     "test": "standard && nyc ava"
